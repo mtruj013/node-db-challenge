@@ -7,38 +7,38 @@ exports.seed = function(knex) {
       return knex('tasks').insert([
         {
           project_id: 1,
-          description: "gather supplies",
-          notes: "which type of wood to use?",
+          task_description: "gather supplies",
+          task_notes: "which type of wood to use?",
           completed: false
         },
         {
           project_id: 1,
-          description: "build desk",
-          notes: "magic!",
+          task_description: "build desk",
+          task_notes: "magic!",
           completed: false
         },
         {
           project_id: 2,
-          description: "decide data",
-          notes: "what should the api return?",
+          task_description: "decide data",
+          task_notes: "what should the api return?",
           completed: false
         },
         {
           project_id: 2,
-          description: "build api",
-          notes: "magic!",
+          task_description: "build api",
+          task_notes: "magic!",
           completed: false
         },
         {
           project_id: 3,
-          description: "garther supplies",
-          notes: "best store for value?",
+          task_description: "garther supplies",
+          task_notes: "best store for value?",
           completed: false
         },
         {
           project_id: 3,
-          description: "have beautiful garden",
-          notes: "magic!",
+          task_description: "have beautiful garden",
+          task_notes: "magic!",
           completed: false
         }
       ]);

@@ -13,9 +13,9 @@ exports.up = function(knex) {
     })
     .createTable('tasks', tbl => {
         tbl.increments()
-        tbl.string('description')
+        tbl.string('task_description')
             .notNullable()
-        tbl.string('notes')
+        tbl.string('task_notes')
         tbl.boolean('completed')
             .notNullable()
             .defaultTo(false)
